@@ -4,6 +4,22 @@
 
 The progressive web app qualities are achieved due to the use of the service-worker.
 
+## Installing `Irio`
+
+To bootstrap an `irio` website, the `mnp` package is used which needs to be installed globally.
+
+```sh
+npm i -g mnp
+```
+
+To then make a new package which contains the website, the following command should be used:
+
+```sh
+mnp my-irio-app -s irio
+```
+
+It will create a `my-irio-app` package in the current directory with everything needed to develop and run the website.
+
 ## What Is `Irio`
 
 `irio` is a Node.js framework software that allows to build both `back-end` and `front-end` applications at the same time with the help of `JSX` syntax. One does not need to have to know a lot about the `React` product to write such syntax, which makes it possible for the small team of developers or a single developer to tackle the problem of creating a modern websites. Moreover, the website being developed automatically becomes a progressive web app, which gives the opportunity to reach a more wide group of users, and provide them with the wonderful experience brought by the closer integration with the native OS (such as an iPhone or Android device),
@@ -36,7 +52,7 @@ The styles should be put in the `styles` directory and also served as static fil
 
 When a user makes a request to a given route, the server executes the `index.jsx` script which should require the `Page.jsx` found in components. The react internal representation will be built according to this logic (this means that the hydration will be executed against the `Page.jsx` component in the main `div` of the website). Because the rendering of the page is done on the server, the website is served extremely fast, and once the React bundle is loaded, the client will perform only local navigation, that is render pages client-side without querying the server. The dynamic data is then fetched via an AJAX API interface of the app. Because the user might not interact with the website for the first 10 seconds, during that time the browser bundle is loaded and evaluated, so that the next page can be available in no time.
 
-```sh
+```fs
 irio/
 ├── index.js
 ├── dev.js
@@ -53,7 +69,7 @@ irio/
 |   │   ├── Components
 |   │   │   └── Page.jsx
 |   │   └── index.jsx
-├── | editorial
+|   ├── editorial
 |   │   ├── scripts
 |   │   ├── styles
 |   │   ├── Components
