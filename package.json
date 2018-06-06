@@ -1,6 +1,6 @@
 {
   "name": "irio",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "The best full stack framework for building sites in Node.js.",
   "main": "build",
   "scripts": {
