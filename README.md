@@ -59,29 +59,30 @@ irio/
 ├── package.json
 ├── pages
 │   ├── index
-|   │   ├── images
-|   │   │   └── world.jpg
-|   │   ├── scripts
-|   │   │   ├── index.js
-|   │   │   └── service-worker.js
-|   │   ├── styles
-|   │   │   └── index.css
-|   │   ├── Components
-|   │   │   └── Page.jsx
-|   │   └── index.jsx
-|   ├── editorial
-|   │   ├── scripts
-|   │   ├── styles
-|   │   ├── Components
-|   │   └── index.js
-│   └── special
-|       ├── scripts
-|       ├── styles
-|       ├── Components
-|       └── index.js
-├── scripts
-│   └── jquery.js
+│   │   ├── images
+│   │   │   └── world.jpg
+│   │   ├── scripts
+│   │   │   ├── index.js
+│   │   ├── styles
+│   │   │   └── index.css
+│   │   ├── Components
+│   │   │   └── Page.jsx
+│   │   └── index.jsx
+│   ├── editorial
+│   │   ├── scripts
+│   │   ├── styles
+│   │   ├── Components
+│   │   │   └── Page.jsx
+│   │   └── index.js
+│   └── special
+│       ├── scripts
+│       ├── styles
+│       ├── Components
+│       │   └── Page.jsx
+│       └── index.js
 ├── static
+│   ├── jquery.js
+│   └── service-worker.js
 └── upload
 ```
 
